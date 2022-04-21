@@ -1,4 +1,4 @@
-# Translate Shell
+# Translate Shell EX
 
 [translate-shell](https://github.com/soimort/translate-shell) and global popup translate, currently translate text to Chinese only, supporting image(OCR) and pure text
 
