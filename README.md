@@ -2,7 +2,7 @@
 
 [translate-shell](https://github.com/soimort/translate-shell) and global popup translate, currently translate text to Chinese only, supporting image(OCR) and pure text
 
-individual version: [here](https://github.com/K1ngst0m/dotfiles/blob/3.0/.myprofile/bin/translator), read the code before using it.
+individual version: [here](https://github.com/K1ngst0m/dotfiles/blob/3.0/.myprofile/bin/translator), read the line 5791-5848 before using it.
 
 ### Showcase
 
