@@ -2,6 +2,15 @@
 
 [translate-shell](https://github.com/soimort/translate-shell) and global popup translate, currently translate text to Chinese only, supporting image(OCR) and pure text
 
+### Build
+
+``` shell
+$ git clone https://github.com/K1ngst0m/translate-shell
+$ cd translate-shell
+$ make -j$(nproc)
+$ cd build/ && ls
+```
+
 ### Dependencies
 - gawk
 - xclip
