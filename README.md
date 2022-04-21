@@ -23,7 +23,8 @@ cd build/ && ls
 ```
 
 ### Dependencies
-- gawk
-- xclip
-- flameshot
-- dunst
+- gawk: for building translate-shell
+- xclip: get selected text or image in clipboard 
+- flameshot: screencapture for getting image to translate
+- dunst: translation message popup
+- tesseractor (optional): an OCR engine or other you like
