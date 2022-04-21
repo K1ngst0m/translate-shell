@@ -130,9 +130,10 @@ function wiki(    code, group, iso, language, saveSortedIn) {
 }
 
 function doc() {
-    man()
-    readme()
-    wiki()
+    # disable doc for now
+    # man()
+    # readme()
+    # wiki()
     return 0
 }
 
