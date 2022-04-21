@@ -12,4 +12,4 @@
 
 |text|image|
 |:---:|:---:|
-|![text.gif](https://user-images.githubusercontent.com/K1ngst0m/translate-shell/res/text.gif)|![img.gif](https://user-images.githubusercontent.com/K1ngst0m/translate-shell/res/img.gif)|
+|![text.gif](https://raw.githubusercontent.com/K1ngst0m/translate-shell/develop/res/text.gif)|![img.gif](https://raw.githubusercontent.com/K1ngst0m/translate-shell/develop/res/img.gif)|
