@@ -197,7 +197,16 @@ function build(target, type,    i, group, inline, line, temp) {
                 print "export TRANS_BUILD=git:" temp > Trans
         }
 
-        print "gawk -f <(echo -E \"$TRANS_PROGRAM\") - \"$@\"" > Trans
+        print "trans(){\n\tgawk -f <(echo -E \"$TRANS_PROGRAM\") - \"$@\"\n}" > Trans
+
+        # print "translator_cmd='" > Trans
+        print "translate_cmd=\"trans -e google -t zh -brief \"" > Trans
+        print "translate(){" > Trans
+        print "t_source=$(echo \"$1\" | tr '\\n' ' ' | tr '\"' '“')" > Trans
+        print "translation_text=$(eval \"$translate_cmd \\\"$t_source\\\"\")" > Trans
+        print "notify-send \" TRANSLATION\" \"\\======================\n$translation_text\" --icon=\"$HOME\"/.local/share/icons/doom.png -u critical" > Trans
+        print "}" > Trans
+        print "translate \"$1\"" > Trans
 
         ("chmod +x " parameterize(Trans)) | getline
 
